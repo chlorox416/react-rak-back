@@ -1,0 +1,2 @@
+module UserKindnessesHelper
+end
