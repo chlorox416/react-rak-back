@@ -32,7 +32,7 @@ class Api::V1::UserKindnessesController < ApplicationController
     private
 
     def user_kindness_params
-        params.permit(:user_kindness)
+        params.require(:user_kindness).permit(:user_id, :kindness_id, :date, :note, :completion)
     end
     
 

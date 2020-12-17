@@ -13,7 +13,7 @@
 ActiveRecord::Schema.define(version: 2020_12_14_220642) do
 
   create_table "kindnesses", force: :cascade do |t|
-    t.string "action"
+    t.string "act"
     t.string "category"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

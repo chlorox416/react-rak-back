@@ -3,4 +3,3 @@ class UserKindnessSerializer < ActiveModel::Serializer
   has_one :user
   has_one :kindness
 end
-git
